@@ -53,5 +53,12 @@ public class Test {
 		
 		assertEquals(5, Fibonacci.fibonacci(n));
 	}
+	
+	@org.junit.Test
+	public void calculateFibonacciOfNegative() {
+		int n = -10;
+		
+		assertEquals(-1, Fibonacci.fibonacci(n));
+	}
 
 }
